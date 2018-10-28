@@ -7,12 +7,7 @@ class Song < ActiveRecord::Base
     self.genre.name
   end
   
-  # def get_genre_name
-  #   array = Genre.all.map do |genre|
-  #     genre.name
-  #   end
-  #   array.join("")
-  # end
+
 
   def drake_made_this
     drake = Artist.new(name: "Drake")
